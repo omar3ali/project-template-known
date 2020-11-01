@@ -1,4 +1,3 @@
-$(document).ready(function () {
 // HOME Carousel
 	$(".owl-carousel-home-0").owlCarousel({
 		items: 1,
@@ -52,6 +51,7 @@ $(document).ready(function () {
 	});
 	$(".owl-carousel").owlCarousel();
 // navbar toggler
+$(document).ready(function () {
 	$(".navbar-toggler").on ("click", function (event) {
 	// this won't work well enough
 		// $('#home').toggleClass ("mr-top-394")
