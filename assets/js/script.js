@@ -61,8 +61,10 @@ $(document).ready(function () {
 		$(event.target).focus();
 	}).on ("blur", function(){
 		$(".navbar-toggler").attr("aria-expanded","false").addClass("collapsed")
-		$(".navbar-collapse").removeClass("show")
 		$("#home").removeClass("mr-top-394")
+		window.setTimeout(function() {
+			$(".navbar-collapse").removeClass("show");
+			}, 100);
 	})
 	setInterval( function(){
 		if ($(".navbar-toggler").hasClass("collapsed")){
