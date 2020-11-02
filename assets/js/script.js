@@ -70,4 +70,11 @@ $(document).ready(function () {
 		if ($(".navbar-toggler").hasClass("collapsed")){
 			$("#home").removeClass("mr-top-394")
 		}else {$("#home").addClass("mr-top-394")}}, 100)
+// Preloader stopper
+	$("#loader-wrapper").addClass("d-none");
+	$(document).scroll(function(){
+		if ($(document).scrollTop()>200) {
+			$("#up-btn").css("display","block")
+		}else {$("#up-btn").css("display","none")}
+	})
 });
