@@ -74,8 +74,8 @@ $(document).ready(function () {
 	$("#loader-wrapper").addClass("d-none");
 	$(document).scroll(function(){
 		if ($(document).scrollTop()>200) {
-			$("#up-btn").css("display","block")
-		}else {$("#up-btn").css("display","none")}
+			$("#up-btn").css("opacity","1")
+		}else {$("#up-btn").css("opacity","0")}
 	})
 // Add smooth scrolling to all links
 	$("a").on('click', function(event) {
