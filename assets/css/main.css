@@ -465,7 +465,7 @@ footer small {
 	opacity: 0;
 	position: fixed;
 	bottom: 10px;
-	right: 7vw;
+	right: 20px;
 	z-index: 2;
 	transition: 500ms ease-in-out;
 }
@@ -506,6 +506,9 @@ footer small {
 	#home .nav-item a,
 	#home .dial {
 		padding: 24px 11px;
+	}
+	#up-btn {
+		right: 7vw;
 	}
 	.w-90 {
 		width: 90%;
