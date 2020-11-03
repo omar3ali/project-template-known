@@ -63,9 +63,6 @@ body {
 	background-color: #29ca8e;
 	color: #ffffff;
 }
-#home .nav-item a.active {
-	transition: background-color 1s ease-in-out;
-}
 #home .dial .fa-phone {
 	background-color: #29ca8e;
 	border-radius: 100%;
