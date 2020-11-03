@@ -8,9 +8,9 @@
 }
 
 /* GENERAL START*/
-html {
+/* html {
 	scroll-behavior: smooth;
-}
+} */
 * {
 	box-sizing: border-box;
 	-webkit-transition: 250ms ease-out, color 500ms ease-out, background-color 250ms steps(2);
